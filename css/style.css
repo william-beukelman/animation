@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   /*** Add wind & gusts chain animation ***/
-  animation: wind 8s linear infinite forwards, gust 6s linear infinite forwards;
+  animation: wind 14s linear infinite forwards, gust 14s linear infinite forwards;
 }
 
 .car {
@@ -23,7 +23,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 99;
-  animation: drive 8s cubic-bezier(.31,.37,.23,-0.33) infinite forwards;  
+  animation: drive 14s cubic-bezier(.31,.37,.23,-0.33) infinite forwards;  
 }
 .car .wheel {
   height: 32px;
@@ -189,9 +189,9 @@ body {
     0% { top: 10%; }
     30% { top: 15%; }
     40% { top: 20%; }
-    50% { top: 30%; }
-    60% { top: 40%; }
-    70% { top: 30%; }
+    50% { top: 25%; }
+    60% { top: 30%; }
+    70% { top: 25%; }
     80% { top: 20%; }
-    100% { top: 10%; }
+    100% { top: 15%; }
 }
